@@ -1,0 +1,62 @@
+<main class="home-shell">
+  <section class="hero-panel">
+    <div class="hero-copy">
+      <span class="eyebrow">Control de inventario</span>
+      <h1>Gestiona tus productos con una vista clara y rapida</h1>
+      <p>
+        Registra, consulta y revisa el detalle de tus productos desde un tablero pensado
+        para trabajar sin perder tiempo.
+      </p>
+
+      <div class="hero-actions">
+        <a class="primary-action" routerLink="/list">Ver catalogo</a>
+        <a class="secondary-action" routerLink="/create">Registrar producto</a>
+      </div>
+    </div>
+
+    <div class="inventory-preview" aria-label="Vista previa del inventario">
+      <div class="preview-header">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="scan-line"></div>
+      <div class="preview-grid">
+        <div class="product-tile tile-blue">
+          <strong>COD-101</strong>
+          <span>Disponible</span>
+        </div>
+        <div class="product-tile tile-green">
+          <strong>COD-240</strong>
+          <span>Stock alto</span>
+        </div>
+        <div class="product-tile tile-red">
+          <strong>COD-318</strong>
+          <span>Revisar</span>
+        </div>
+        <div class="product-tile tile-yellow">
+          <strong>COD-512</strong>
+          <span>Nuevo</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="quick-panel" aria-label="Acciones principales">
+    <a class="quick-link catalog-link" routerLink="/list">
+      <span>01</span>
+      <strong>Catalogo</strong>
+      <small>Consulta productos registrados y accede a su detalle.</small>
+    </a>
+    <a class="quick-link register-link" routerLink="/create">
+      <span>02</span>
+      <strong>Registro</strong>
+      <small>Agrega nuevos productos al inventario.</small>
+    </a>
+    <div class="quick-link search-link">
+      <span>03</span>
+      <strong>Busqueda</strong>
+      <small>Usa la barra superior para encontrar productos por codigo o descripcion.</small>
+    </div>
+  </section>
+</main>

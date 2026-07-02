@@ -1,0 +1,7 @@
+organization=jorgealarosag
+projectKey=JorgeALaRosaG_AppFirstAngularS6
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.94653
+dashboardUrl=https://sonarcloud.io/dashboard?id=JorgeALaRosaG_AppFirstAngularS6
+ceTaskId=AZ8hA0aIuuXu2nnyI-0O
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZ8hA0aIuuXu2nnyI-0O
